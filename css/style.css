@@ -372,6 +372,7 @@ a {
   .swiper {
     width: 280px;
     height: 100%;
+    margin: 0 auto;
   }
 
   .reviews__list {
