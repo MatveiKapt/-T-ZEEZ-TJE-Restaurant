@@ -461,6 +461,7 @@ a {
 
 .main__reserve-modal {
   position: fixed;
+  z-index: 20;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
