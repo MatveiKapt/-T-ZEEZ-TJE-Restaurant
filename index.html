@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="page" lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>'T ZEEZ TJE</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body page-body">
+  <div class="header__wrapper">
+    <header class="page-body__header header header--menu-closed">
+      <a class="header__logo header-logo" href="#">
+        <picrure>
+          <img src="img/header-logo.webp" srcset="img/header-logo@2x.webp 2x" width="269" height="55" alt="'T ZEEZ TJE logo">
+        </picrure>
+      </a>
+      <button class="header__menu-toggler" type="button" aria-label="Menu openen/sluiten"></button>
+      <div class="nav__wrapper">
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__link--current" href="#">À la carte</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Wijnkaart</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Lunchmenu</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header__address header-address">
+          <a class="header-address__phone" href="tel:+3292825725">+32 9 282 57 25</a>
+        </address>
+      </div>
+    </header>
+  </div>
+  <main class="page-body__main main">
+    <h1 class="visually-hidden">Website van restaurant 'T ZEEZ TJE</h1>
+    <section class="main__preview preview">
+      <div class="preview__inner container">
+        <h2 class="visually-hidden"> Kleine beschrijving</h2>
+        <p class="preview__opening-hours">Open everyday 6AM - 9PM</p>
+        <p class="preview__slogan">A bad day with lunch is better than a good day without it.</p>
+        <div class="preview__button-socials-wrapper">
+          <a class="preview__button button" href="#">Reserve a table</a>
+          <ul class="preview__socials-list socials-list socials-list--header">
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Faceboock">Fb</a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Instagram">Ig</a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Twitter">Tw</a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="YouTube">Yt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="main__menu menu container">
+      <h2 class="visually-hidden">Menu voor de komende dagen</h2>
+      <!--
+        Для проверяющего!
+        В этом блоке я бы уточнил и в зависимости от контекста сделал бы разными способами. Если задумано, что слева "Сюрприз от шефа", а справа указано название блюда, которое будет тем самым сюрпризом, то я бы сделал списком определений. На макете такой связи не наблюдаю и, так как спросить не у кого, то делаю просто как не связанные друг с другом блюда.
+      -->
+      <ul class="menu__days-list">
+        <li class="menu__days-item">
+          <h3 class="menu__days-title">Woensdag 12/01</h3>
+          <ul class="menu__days-sublist">
+            <li class="menu__days-sublist-item">Salade met Serrano</li>
+            <li class="menu__days-sublist-item">Steak Tartaar</li>
+          </ul>
+        </li>
+        <li class="menu__days-item">
+          <h3 class="menu__days-title">Donderdag 13/01</h3>
+          <ul class="menu__days-sublist">
+            <li class="menu__days-sublist-item">Toast Roquefort</li>
+            <li class="menu__days-sublist-item">Penne met Kip en Prei</li>
+          </ul>
+        </li>
+        <li class="menu__days-item">
+          <h3 class="menu__days-title">Vrijdag 14/01</h3>
+          <ul class="menu__days-sublist">
+            <li class="menu__days-sublist-item">Verrassing van de Chef</li>
+            <li class="menu__days-sublist-item">Penne met Kip en Prei</li>
+          </ul>
+        </li>
+        <li class="menu__days-item">
+          <h3 class="menu__days-title">Vrijdag 15/01</h3>
+          <ul class="menu__days-sublist">
+            <li class="menu__days-sublist-item">Verrassing van de Chef</li>
+            <li class="menu__days-sublist-item">Penne met Kip en Prei</li>
+          </ul>
+        </li>
+        <li class="menu__days-item">
+          <h3 class="menu__days-title">Vrijdag 16/01</h3>
+          <ul class="menu__days-sublist">
+            <li class="menu__days-sublist-item">Verrassing van de Chef</li>
+            <li class="menu__days-sublist-item">Penne met Kip en Prei</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="main__reviews reviews">
+      <div class="reviews__inner container">
+        <h2 class="visually-hidden">Recensies over ons</h2>
+        <ul class="reviews__list swiper">
+          <div class="swiper-wrapper">
+            <li class="reviews__item swiper-slide">
+              <blockquote class="reviews__blockquote review-blockquote">
+                <h3 class="review-blockquote__title">Goede service, lekker eten, toffe ambiance</h3>
+                <p class="review-blockquote__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</p>
+                <cite class="review-blockquote__cite">Alain Heyndrickx</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <blockquote class="reviews__blockquote review-blockquote">
+                <h3 class="review-blockquote__title">Goede service, lekker eten, toffe ambiance</h3>
+                <p class="review-blockquote__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</p>
+                <cite class="review-blockquote__cite">Alain Heyndrickx</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <blockquote class="reviews__blockquote review-blockquote">
+                <h3 class="review-blockquote__title">Goede service, lekker eten, toffe ambiance</h3>
+                <p class="review-blockquote__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</p>
+                <cite class="review-blockquote__cite">Alain Heyndrickx</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <blockquote class="reviews__blockquote review-blockquote">
+                <h3 class="review-blockquote__title">Goede service, lekker eten, toffe ambiance</h3>
+                <p class="review-blockquote__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</p>
+                <cite class="review-blockquote__cite">Alain Heyndrickx</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <blockquote class="reviews__blockquote review-blockquote">
+                <h3 class="review-blockquote__title">Goede service, lekker eten, toffe ambiance</h3>
+                <p class="review-blockquote__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</p>
+                <cite class="review-blockquote__cite">Alain Heyndrickx</cite>
+              </blockquote>
+            </li>
+          </div>
+        </ul>
+        <div class="reviews__button-prev-wrapper">
+          <button class="reviews__button reviews__button-prev" aria-label="Vorige recensie"></button>
+        </div>
+        <div class="reviews__button-next-wrapper">
+          <button class="reviews__button reviews__button-next" aria-label="Volgende beoordeling"></button>
+        </div>
+      </div>
+    </section>
+    <section class="main__reserve-modal reserve-modal">
+      <h2 class="visually-hidden">Feedback window for table reservation</h2>
+      <div class="reserve-modal__content">
+        <form class="reserve-modal__form reserve-form">
+          <fieldset class="reserve-form__fieldset">
+            <legend class="reserve-form__title">Feedback for reservation</legend>
+            <ul class="reserve-form__list">
+              <li class="reserve-form__list item">
+                <label class="reserve-form__label label" for="user-name">Enter your name:</label>
+                <input class="reserve-form__input input" id="user-name" type="text" name="client-name" required placeholder="Name">
+              </li>
+              <li class="reserve-form__list item">
+                <label class="reserve-form__label label" for="user-phone">Enter your phone number:</label>
+                <input class="reserve-form__input input" id="user-phone" type="number" name="client-phone" required placeholder="Phone">
+              </li>
+            </ul>
+          </fieldset>
+          <button class="reserve-form__submit-button button button--feedback-submit" type="submit">Submit</button>
+        </form>
+        <div class="reserve-modal__close-button-wrapper">
+          <button class="reserve-modal__close-button" type="button" aria-label="Close feedback window"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="js/menu.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/swiper-settings.js"></script>
+</body>
+</html>
