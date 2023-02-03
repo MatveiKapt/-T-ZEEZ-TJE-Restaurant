@@ -159,8 +159,7 @@ a {
   left: 0;
   display: block;
   width: 100%;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(18px);
+  background: var(--basic-blue);
 }
 
 .nav__list {
